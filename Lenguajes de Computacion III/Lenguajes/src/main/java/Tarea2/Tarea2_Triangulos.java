@@ -4,8 +4,6 @@
  */
 package Tarea2;
 
-import java.util.Arrays;
-
 
 /**
  *
@@ -24,18 +22,6 @@ public class Tarea2_Triangulos {
             System.out.print("\nEs isoceles\n");
         } else if ( (l1 != l2) && (l3 != l2)){
             System.out.print("\nEs escaleno\n");
-        }
-
-        int[] arr = new int [10];
-
-        arr[0] = 4; arr[1] = 13; arr[2] = 12; arr[3] = 3; arr[4] = 4;
-        arr[5] = 8; arr[6] = 9; arr[7] = 11; arr[8] = 13; arr[9] = 14;
-
-        for (int i=0; i<=9; i++){
-            System.out.print(" "+arr[i]);
-            System.out.println(" long "+arr.length);
-            String w = Arrays.toString(arr);
-            System.out.println(" string "+w);
         }
     }
 }
