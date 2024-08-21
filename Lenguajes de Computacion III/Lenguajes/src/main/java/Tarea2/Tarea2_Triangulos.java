@@ -34,8 +34,8 @@ public class Tarea2_Triangulos {
         for (int i=0; i<=9; i++){
             System.out.print(" "+arr[i]);
             System.out.println(" long "+arr.length);
-            String w = new String(arr.toString());
-            System.out.println(" string "+w.toString());
+            String w = Arrays.toString(arr);
+            System.out.println(" string "+w);
         }
     }
 }
