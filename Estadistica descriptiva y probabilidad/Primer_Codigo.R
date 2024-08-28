@@ -10,8 +10,8 @@ T <- function(x){
     return(r)
 }
 res <- matrix(0,nrow = nrow(R), ncol = ncol(R))
-for (i in 1:nrow(R))
 for (j in 1:ncol(R)){
+for (i in 1:nrow(R))
     res[i,j] <- T(R[i,j])
 }
 plot(0:1,0:1, type='n', axes = FALSE, xlab = "", ylab = "")
