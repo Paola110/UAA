@@ -27,13 +27,11 @@ import javax.swing.JTextField;
      JTextField textoPalindromo, textoFormateado, resultadoPalindromo, resultadoFormateado;
  
      public Tarea10_Palindromos() {
-         textoPalindromo = new JTextField(15); // Campo para ingresar la palabra
-         resultadoPalindromo = new JTextField(20); // Resultado de la verificación
-         resultadoPalindromo.setEditable(false); // No editable
+         textoPalindromo = new JTextField(10); // Campo para ingresar la palabra
+         resultadoPalindromo = new JTextField(10); // Resultado de la verificación
  
-         textoFormateado = new JTextField(15); // Campo para el texto a formatear
-         resultadoFormateado = new JTextField(20); // Resultado del formateo
-         resultadoFormateado.setEditable(false); // No editable
+         textoFormateado = new JTextField(10); // Campo para el texto a formatear
+         resultadoFormateado = new JTextField(10); // Resultado del formateo
  
          verificarPalindromo = new JButton("Verificar");
          formatearTexto = new JButton("Formatear");
