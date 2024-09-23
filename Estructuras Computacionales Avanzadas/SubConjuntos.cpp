@@ -18,7 +18,7 @@ Luis Fernando Gutiérrez Marfileño
 #include <iostream>
 #include <bitset>
 #include <cstring>
-#include <math.h>
+//#include <math.h>
 #include <vector>
 using namespace std;
 
