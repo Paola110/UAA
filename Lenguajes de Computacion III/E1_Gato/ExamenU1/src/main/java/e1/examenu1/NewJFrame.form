@@ -286,8 +286,14 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="R1">
+          <Properties>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="R2">
+          <Properties>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="Reiniciar">
           <Properties>

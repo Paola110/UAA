@@ -58,6 +58,10 @@ public class NewJFrame extends JFrame implements ActionListener{
             
             R1.setText("0");
             R2.setText("0");
+            GanaO = 0;
+            GanaX = 0;
+            R1.enable(false);
+            R2.enable(false);
         }
         
         if (AE.getSource() == UU) {
@@ -244,6 +248,10 @@ public class NewJFrame extends JFrame implements ActionListener{
         P1.setText("Jugador O");
 
         J2.setText("Jugador X");
+
+        R1.setEnabled(false);
+
+        R2.setEnabled(false);
 
         Reiniciar.setBackground(new java.awt.Color(255, 51, 51));
         Reiniciar.setForeground(new java.awt.Color(255, 255, 255));
