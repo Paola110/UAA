@@ -6,7 +6,9 @@
 package e1.examenu1;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import javax.swing.*;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
 
 /**
  *
@@ -152,13 +154,22 @@ public class NewJFrame extends JFrame implements ActionListener{
             });
             timer.setRepeats(false);
             timer.start();
+        } else if ((!UU.getText().equals("") && !UD.getText().equals("") && !UT.getText().equals("")) &&
+        (!DU.getText().equals("") && !DD.getText().equals("") && !DT.getText().equals("")) &&
+        (!TU.getText().equals("") && !TD.getText().equals("") && !TT.getText().equals(""))){
+            Ganador.setText("Ninguno gana :(");
+            javax.swing.Timer timer = new javax.swing.Timer(3000, (ActionEvent e) -> {
+                Ganador.setText("");
+                BorrarTablero(); 
+            });
+            timer.setRepeats(false);
+            timer.start();
         }
     }
 
     
     // </editor-fold>
-    
-    @SuppressWarnings("unchecked")
+
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
