@@ -1,4 +1,5 @@
 #Pseudoclase dado
+
 dado<-function(caras,nombre){
    d<-list("caras"=caras,"nom"=nombre)
    class(d)<-"dado"
@@ -189,4 +190,25 @@ barplot(t1vs3,xlab="Ganador", ylab="Frecuencia",
 barplot(t2vs3,xlab="Ganador", ylab="Frecuencia",
 	main="Resultados del dado 2 vs el 3",
 	col=c("blue","green","white"))
+
+##### Dados para la practica ######
+
+# Dados de Wikipedia
+dado1<-dado(c(2,2,4,4,9,9),"red")
+dado2<-dado(c(1,1,6,6,8,8),"blue")
+dado3<-dado(c(3,3,5,5,7,7),"green")
+
+# Dados de clase
+dado1<-dado(c(1,1,5,5,9,9),"red")
+dado2<-dado(c(2,2,6,6,7,7),"blue")
+dado3<-dado(c(3,3,4,4,8,8),"green")
+
+# Dados de Efron
+dado1<-dado(c(4,4,4,4,0,0),"red")
+dado2<-dado(c(3,3,3,3,3,3),"blue")
+dado3<-dado(c(6,6,2,2,2,2),"green")
+dado4<-dado(c(5,5,5,1,1,1),"orange")
+
+
+
 
