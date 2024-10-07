@@ -71,7 +71,7 @@ public class Tarea13_Archivos extends JFrame {
             try (BufferedReader archivo = new BufferedReader(new InputStreamReader(new FileInputStream("C:\\Users\\monts\\OneDrive\\Escritorio\\UAA\\Lenguajes de Computacion III\\Tarea13_NuevoArchivo.txt")))) {
                 String linea;
                 while ((linea = archivo.readLine()) != null) {
-                    Leer.append(linea + "\n");
+                    Leer.append(linea + "-");
                 }
             }
 
